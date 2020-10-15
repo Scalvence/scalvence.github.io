@@ -3,11 +3,13 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
 
         <link rel="stylesheet" href="assets/css/styles.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
 
         <!-- =====BOX ICONS===== -->
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
 
         <title>Scalvence Portfolio</title>
     </head>
@@ -18,34 +20,24 @@
                 <div>
                     <a href="#" class="nav__logo">Scalvence</a>
                 </div>
+
                 <div class="nav__menu" id="nav-menu">
-                    <li><input id="switch" type="checkbox" name="theme">
-                        <label for="switch">Dark-Mode</label>
-                    </div>
-                    <div class="toggle">
-            
                     <ul class="nav__list">
-                        
-                        
                         <li class="nav__item"><a href="#home" class="nav__link active">Início</a></li>
                         <li class="nav__item"><a href="#about" class="nav__link">Sobre</a></li>
                         <li class="nav__item"><a href="#skills" class="nav__link">Habilidades</a></li>
-                        <li class="nav__item"><a href="#work" class="nav__link">Projetos</a></li>
-                        
-
-                        
-                    </div>
-                    <script src="assets/js/scripts.js"></script>
-                        
-                        
-                        
-                        
+                        <li class="nav__item"><a href="#work" class="nav__link">Serviços</a></li>
+                            <div class="toggle">
+            
+            <input id="switch" type="checkbox" name="theme">
+            <label for="switch">Toggle</label>
+        </div>
                     </ul>
                 </div>
 
                 <div class="nav__toggle" id="nav-toggle">
-                    
                     <i class='bx bx-menu'></i>
+                <script src="assets/js/scripts.js"></script>
                 </div>
             </nav>
         </header>
@@ -54,15 +46,15 @@
             <!--===== HOME =====-->
             <section class="home bd-grid" id="home">
                 <div class="home__data">
-                    <h1 class="home__title">Olá,<br>Eu sou <span class="home__title-color">Natan</span><br> Desenvolvedor Back-End </h1>
+                    <h1 class="home__title">Olá,<br>Eu sou <span class="home__title-color">Natan</span><br> Desenvolvedor Back-End</h1>
 
                     <a href="https://github.com/Skalvensi" class="button">Meu Github</a>
                 </div>
 
                 <div class="home__social">
-                    <a href="https://www.linkedin.com/in/natan-scalvence-4917441b7/" class="home__social-icon"><i class='fa fa-linkedin'></i></a>
-                    <a href="https://www.facebook.com/natan.gabriel.5817" class="home__social-icon"><i class='fa fa-facebook' ></i></a>
-                    <a href="https://pt.stackoverflow.com/users/206531/skalvensi" class="home__social-icon"><i class='fa fa-stack-overflow' ></i></a>
+                    <a href="https://www.facebook.com/natan.gabriel.5817" class="home__social-icon"><i class='bx bxl-facebook'></i></a>
+                    <a href="https://www.linkedin.com/in/natan-scalvence-4917441b7/" class="home__social-icon"><i class='bx bxl-linkedin' ></i></a>
+                    <a href="https://pt.stackoverflow.com/users/206531/skalvensi" class="home__social-icon"><i class='bx bxl-stack-overflow' ></i></a>
                 </div>
 
                 <div class="home__img">    
@@ -80,10 +72,10 @@
                     </div>
                     
                     <div>
-                        <h2 class="about__subtitle">Prazer, Natan</h2>
-                        <p class="about__text">Olá, é um prazer te conhecer. Me chamo Natan Gabriel, tenho 17 anos 
-                            e sou residente da cidade de Cascavel, cidade-pólo da região oeste paranense. Sou um
-                        estudante e amante da programação/computação, na qual realizo cursos e projetos em off (para prática).</p>           
+                        <h2 class="about__subtitle">Prazer, Natan!</h2>
+                        <p class="about__text">Olá, prazer em te conhecer. Me chamo Natan Gabriel. Sou estudante
+da área da computação e excêntrico pela mesma, moro na cidade de Cascavel, cidade pólo da região Oeste paranaense. No momento
+estudo a parte de backend, entretanto um dos meus hobbies é os projetos web.</p>           
                     </div>                                   
                 </div>
             </section>
@@ -95,54 +87,55 @@
                 <div class="skills__container bd-grid">          
                     <div>
                         <h2 class="skills__subtitle">Habilidades</h2>
-                        <p class="skills__text">Minhas habilidades por enquanto não são as mais profissionais, no entanto, estudo as linguagens
-                            C, C++, Haskell e Python. Tanto para desenvolvimento de software, quanto para o aprofundamento na área de Ciencia de Dados..</p>
+                        <p class="skills__text">Minhas habilidades não são as mais profissionais, entretanto meu foco está na parte de
+back-end e engenharia de software. Estudo as linguagens C, C++, Hakell e Python, essenciais nessa área, além da integração das mesmas na
+ciencia de dados.</p>
                         <div class="skills__data">
                             <div class="skills__names">
-                                <i class='bx bxl-c skills__icon'></i>
+                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAA+ElEQVRIS+2T4RHBQBCFkwrogA4ogQ50gAq0EB3oQFRAB+hACUqgA++Z3cy6u1wuZvLDyM3siLz1vb13J886XnnH/Kw3aEz4PyMaIpcZ6hTIx9O+iegG8AS1RRWOiae1NSgBXKKeqDHqYQyCWhuDHWAbgTMiTqurVks1WIG0F9ocnxcDj2neP5mTcKt2ugW+HwW4Fl35Me3dY3dgJ1HQFD1nFG+He6gxrdqgG5FmyQZeQ2ZN+AHFAbj4jmcR0iqwPoTOgCAaDaTpKjD9zR0PoxotyYBN3H5pJrbXMaYlG7CR0XBZuAJi2odJ6jX1Jkt90Rs0JvX7Eb0A9k4xGaDbo5cAAAAASUVORK5CYII="/>
                                 <span class="skills__name">C</span>
                             </div>
-                            <div class="skills__bar skills__c">
+                            <div class="skills__bar skills__html">
 
                             </div>
                             <div>
-                                <span class="skills__percentage">15%</span>
+                                <span class="skills__percentage">5 Meses</span>
                             </div>
                         </div>
                         <div class="skills__data">
                             <div class="skills__names">
-                                <i class='bx bxl-cpp skills__icon'></i>
+                               <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAA+ElEQVRIS+2T4RHBQBCFkwrogA4ogQ50gAq0EB3oQFRAB+hACUqgA++Z3cy6u1wuZvLDyM3siLz1vb13J886XnnH/Kw3aEz4PyMaIpcZ6hTIx9O+iegG8AS1RRWOiae1NSgBXKKeqDHqYQyCWhuDHWAbgTMiTqurVks1WIG0F9ocnxcDj2neP5mTcKt2ugW+HwW4Fl35Me3dY3dgJ1HQFD1nFG+He6gxrdqgG5FmyQZeQ2ZN+AHFAbj4jmcR0iqwPoTOgCAaDaTpKjD9zR0PoxotyYBN3H5pJrbXMaYlG7CR0XBZuAJi2odJ6jX1Jkt90Rs0JvX7Eb0A9k4xGaDbo5cAAAAASUVORK5CYII="/>
                                 <span class="skills__name">C++</span>
                             </div>
-                            <div class="skills__bar skills__cpp">
+                            <div class="skills__bar skills__css">
                                 
                             </div>
                             <div>
-                                <span class="skills__percentage">10%</span>
+                                <span class="skills__percentage">5 Meses</span>
                             </div>
                         </div>
                         <div class="skills__data">
                             <div class="skills__names">
-                                <i class='' ></i>
+                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAA+ElEQVRIS+2T4RHBQBCFkwrogA4ogQ50gAq0EB3oQFRAB+hACUqgA++Z3cy6u1wuZvLDyM3siLz1vb13J886XnnH/Kw3aEz4PyMaIpcZ6hTIx9O+iegG8AS1RRWOiae1NSgBXKKeqDHqYQyCWhuDHWAbgTMiTqurVks1WIG0F9ocnxcDj2neP5mTcKt2ugW+HwW4Fl35Me3dY3dgJ1HQFD1nFG+He6gxrdqgG5FmyQZeQ2ZN+AHFAbj4jmcR0iqwPoTOgCAaDaTpKjD9zR0PoxotyYBN3H5pJrbXMaYlG7CR0XBZuAJi2odJ6jX1Jkt90Rs0JvX7Eb0A9k4xGaDbo5cAAAAASUVORK5CYII="/>
                                 <span class="skills__name">Haskell</span>
                             </div>
-                            <div class="skills__bar skills__haskell">
+                            <div class="skills__bar skills__js">
                                 
                             </div>
                             <div>
-                                <span class="skills__percentage">6%</span>
+                                <span class="skills__percentage">4 Meses</span>
                             </div>
                         </div>
                         <div class="skills__data">
                             <div class="skills__names">
-                                <i class=''></i>
+                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAA+ElEQVRIS+2T4RHBQBCFkwrogA4ogQ50gAq0EB3oQFRAB+hACUqgA++Z3cy6u1wuZvLDyM3siLz1vb13J886XnnH/Kw3aEz4PyMaIpcZ6hTIx9O+iegG8AS1RRWOiae1NSgBXKKeqDHqYQyCWhuDHWAbgTMiTqurVks1WIG0F9ocnxcDj2neP5mTcKt2ugW+HwW4Fl35Me3dY3dgJ1HQFD1nFG+He6gxrdqgG5FmyQZeQ2ZN+AHFAbj4jmcR0iqwPoTOgCAaDaTpKjD9zR0PoxotyYBN3H5pJrbXMaYlG7CR0XBZuAJi2odJ6jX1Jkt90Rs0JvX7Eb0A9k4xGaDbo5cAAAAASUVORK5CYII="/>
                                 <span class="skills__name">Python</span>
                             </div>
-                            <div class="skills__bar skills__python">
+                            <div class="skills__bar skills__ux">
                                 
                             </div>
                             <div>
-                                <span class="skills__percentage">3%</span>
+                                <span class="skills__percentage">1 Mês</span>
                             </div>
                         </div>
                     </div>
@@ -156,6 +149,7 @@
             <!--===== WORK =====-->
             <section class="work section" id="work">
                 <h2 class="section-title">Projetos</h2>
+
                 <div class="work__container bd-grid">
                     <div class="work__img">
                         <img src="assets/img/work1.jpg" alt="">
@@ -184,11 +178,10 @@
         <footer class="footer">
             <p class="footer__title">Scalvence</p>
             <div class="footer__social">
-                <a href="https://www.facebook.com/natan.gabriel.5817" class="footer__icon"><i class='fa fa-facebook' ></i></a>
-                <a href="https://www.instagram.com/natanscalvence/?hl=pt-br" class="footer__icon"><i class='fa fa-instagram' ></i></a>
-        
+                <a href="https://www.facebook.com/natan.gabriel.5817" class="footer__icon"><i class='bx bxl-facebook' ></i></a>
+                <a href="https://www.instagram.com/natanscalvence/?hl=pt-br" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
             </div>
-            <p>&#169; 2020 Todos os direitos reservados</p>
+            <p>&#169; 2020 copyright todos os direitos reservados</p>
         </footer>
 
 
