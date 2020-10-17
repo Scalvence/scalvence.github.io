@@ -11,6 +11,7 @@
   --first-color: #4070F4;
   --second-color: #0E2431;
    --third-color: #f2f2f2
+    --for-color: #FFFFFF;
 }
 
 /*===== Fuente y tipografia =====*/
@@ -202,6 +203,7 @@ img{
   justify-content: space-between;
   align-items: center;
   font-weight: var(--font-semi);
+    
 }
 @media screen and (max-width: 768px){
   .nav__menu{
@@ -213,6 +215,7 @@ img{
     padding: 2rem;
     background-color: var(--second-color);
     transition: .5s;
+    
   }
 }
 .nav__item{
@@ -344,16 +347,18 @@ img{
   margin-bottom: var(--mb-4);
   border-radius: .5rem;
   box-shadow: 0 4px 25px rgba(14,36,49,.15);
+  color: var(--color-text);
 }
 .skills__icon{
   font-size: 2rem;
-  margin-right: var(--mb-2);
-  color: var(--first-color);
+  margin-right: var(--mb-5);
+  color: var(--color-text);
 }
 .skills__names{
   display: flex;
   align-items: center;
-  color: var(--first-color);
+  color: var(--color-text);
+ 
 }
 .skills__bar{
   position: absolute;
@@ -366,6 +371,7 @@ img{
 }
 .skills__c{
   width: 15%;
+
 }
 .skills__cpp{
   width: 10%;
