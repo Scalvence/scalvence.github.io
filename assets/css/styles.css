@@ -50,6 +50,8 @@
 /*===== BASE =====*/
 *,::before,::after{
   box-sizing: border-box;
+  color: var(--color-text);
+  
 }
 html{
   scroll-behavior: smooth;
@@ -57,6 +59,8 @@ html{
     --text: black;
 
     --bg: #FCFCFC;
+    --bg2: #FFFFFF;
+    --fnd: #292929;
     --bg-panel: #EBEBEB;
     --color-headings: #0077FF;
     --color-text: #333333;
@@ -185,6 +189,7 @@ img{
   width: calc(100% - 2rem);
   margin-left: var(--mb-2);
   margin-right: var(--mb-2);
+  
 }
 .l-header{
   width: 100%;
@@ -192,9 +197,12 @@ img{
   top: 0;
   left: 0;
   z-index: var(--z-fixed);
-  background-color: #fff;
+  background-color: var(--bg2);
   box-shadow: 0 1px 4px rgba(146,161,176,.15);
+  
+
 }
+
 
 /*===== NAV =====*/
 .nav{
@@ -215,6 +223,7 @@ img{
     padding: 2rem;
     background-color: var(--second-color);
     transition: .5s;
+    color: var(--color-text);
     
   }
 }
@@ -223,7 +232,7 @@ img{
 }
 .nav__link{
   position: relative;
-  color: #fff;
+  color: var(--color-text);
 }
 .nav__link:hover{
   position: relative;
@@ -255,6 +264,7 @@ img{
   left: 0;
   top: 2rem;
   background-color: var(--first-color);
+  
 }
 
 /*=== Show menu ===*/
@@ -280,6 +290,7 @@ img{
 .home__social{
   display: flex;
   flex-direction: column;
+  color: var(--first-color);
 }
 .home__social-icon{
   width: max-content;
@@ -351,7 +362,7 @@ img{
 }
 .skills__icon{
   font-size: 2rem;
-  margin-right: var(--mb-5);
+  margin-right: var(--mb-4);
   color: var(--color-text);
 }
 .skills__names{
@@ -459,7 +470,7 @@ img{
     display: none;
   }
   .nav__link{
-    color: var(--second-color);
+    color: var(--color-text);
   }
 
   .home{

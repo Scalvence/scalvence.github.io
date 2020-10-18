@@ -9,13 +9,15 @@ const getStyle = (element, style) =>
 
 const initialColors = {
     bg: getStyle(html, "--bg"),
+    bg2: getStyle(html, "--bg2"),
     bgPanel: getStyle(html, "--bg-panel"),
     colorHeadings: getStyle(html, "--color-headings"),
     colorText: getStyle(html, "--color-text"),
 }
 
 const darkMode = {
-    bg: "#333333",
+    bg: "#0d0d0d",
+    bg2: "#181717",
     bgPanel: "#434343",
     colorHeadings: "#3664FF",
     colorText: "#B5B5B5"
