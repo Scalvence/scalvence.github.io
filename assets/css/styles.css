@@ -232,7 +232,7 @@ img{
 }
 .nav__link{
   position: relative;
-  color: var(--color-text);
+  color: #B5B5B5;
 }
 .nav__link:hover{
   position: relative;
@@ -419,7 +419,7 @@ img{
 
 /* ===== FOOTER =====*/
 .footer{
-  background-color: var(--second-color);
+  background-color: var(--bg2);
   color: #fff;
   text-align: center;
   font-weight: var(--font-semi);
@@ -428,9 +428,11 @@ img{
 .footer__title{
   font-size: 2rem;
   margin-bottom: var(--mb-4);
+  color: var(--color-text);
 }
 .footer__social{
   margin-bottom: var(--mb-4);
+  color: var(--color-text);
 }
 .footer__icon{
   font-size: 1.5rem;
