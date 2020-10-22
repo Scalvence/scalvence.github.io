@@ -1,7 +1,8 @@
 # scalvence.github.io
 
-Este, é o meu portfólio. Criado com muito carinho e cuidadosamente, usando dos mais refinados temperos que a programação nos oferece!
-No momento, estamos na versão pré-alpha v0.3 e haverá muito mais atualizações por vir, espero que gostem.
+Este é meu portfólio criado a partir de HTML5, CSS e JavaScript. Atualmente ele está em algumas fases de testes e por tanto haverá muitas , melhorias no mesmo.
+Muito importante frisar que no momento estou apenas estudando a programação e participando de projetos, por isso no momento não realizo vendas de projetos ou sites.
+Caso queira deixar uma dica para cada vez melhorar, ficarei 100% agradecido, além de colaborar para o aprendizado ^^.
 
-# Deixe um follow sem custos adicionais!
-# Deixe uma estrela sem custos adicionais!
+
+
